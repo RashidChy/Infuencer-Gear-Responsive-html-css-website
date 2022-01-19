@@ -1,0 +1,45 @@
+@media only screen and (max-width: 400px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 250px;
+    height: 220px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 40px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+  }
+}
